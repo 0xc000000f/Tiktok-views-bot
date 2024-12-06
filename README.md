@@ -45,7 +45,7 @@ pip install selenium webdriver-manager
 To run the bot, execute the script as follows:
 
 ```bash
-python bot.py
+python main.py
 ```
 
 ### Steps:
